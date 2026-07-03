@@ -112,13 +112,7 @@ function App() {
             >
               {copied ? 'Copied!' : 'Copy password'}
             </button>
-            <button
-              type='button'
-              onClick={passwordGenerator}
-              className='w-full rounded-3xl border border-slate-300 bg-white px-4 py-3 text-slate-900 transition hover:bg-slate-50'
-            >
-              Generate password
-            </button>
+         
           </div>
         </div>
       </section>
